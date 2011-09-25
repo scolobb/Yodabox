@@ -35,7 +35,7 @@
       <item>
        <widget class="QTabWidget" name="tabConfiguration">
         <property name="currentIndex">
-         <number>0</number>
+         <number>2</number>
         </property>
         <widget class="QWidget" name="tabWhat">
          <attribute name="title">
@@ -335,7 +335,7 @@
              </layout>
             </widget>
             <widget class="QWidget" name="page_6">
-             <widget class="QWidget" name="">
+             <widget class="QWidget" name="layoutWidget">
               <property name="geometry">
                <rect>
                 <x>10</x>
@@ -633,6 +633,22 @@
     <hint type="destinationlabel">
      <x>314</x>
      <y>367</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cmbOccures</sender>
+   <signal>activated(int)</signal>
+   <receiver>stwOccures</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>157</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>124</x>
+     <y>104</y>
     </hint>
    </hints>
   </connection>
